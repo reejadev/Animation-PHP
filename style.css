@@ -1,0 +1,38 @@
+body{
+    margin:0;
+    padding:0;
+    background-color: black;
+}
+form{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+}
+form input[type="text"]{
+    position: relative;
+    width: 250px;
+    height: 50px;
+    padding: 0 20px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    outline: none;
+    border: none;
+    font-size: 21px;
+    background: #000;
+    border: 1px solid #fff;
+    color:#fff;
+}
+button{
+    position:relative;
+    width: 100px;
+    height: 52px;
+    border:none;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    outline: none;
+    background:#000;
+    color:#fff;
+    border:1px solid #fff;
+}
